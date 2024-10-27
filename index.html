@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bar Vista Alegre</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +20,10 @@
   <body>
     <header>
       <h1 class="fade-in">Bar Vista Alegre</h1>
-      <p class="fade-in">¡Te tratamos como uno más de la familia!</p>
+      <p class="fade-in">
+        ¡Te tratamos como uno más de la familia!
+   
+      </p>
     </header>
 
     <nav>
@@ -41,8 +49,6 @@
         >
       </div>
       <section id="ambiente">
-        
-
         <h2><br /><br />Ambiente</h2>
         <div class="flex-row"></div>
         <p>
@@ -140,31 +146,78 @@
           <li><strong>Comida:</strong> Desde 5 €</li>
         </ul>
       </section>
-
+      <!-- HTML -->
       <section id="menu">
-        <h2 class="slide-in"><br /><br />Menú</h2>
+        <h2><br /><br />Menú</h2>
         <p>
           Prueba nuestras deliciosas opciones en el menú, ideales para acompañar
           tus momentos de diversión:
         </p>
-        <ul class="fade-in">
-          <li>
-            <strong>Tapas Variadas:</strong> Desde aceitunas hasta tortilla
-            española.
-          </li>
-          <li>
-            <strong>Bocadillos:</strong> Elige tu favorito, ¡todos están
-            riquísimos!
-          </li>
-          <li>
-            <strong>Bebidas:</strong> Disfruta de nuestras cervezas, vinos y
-            refrescos.
-          </li>
-          <li>
-            <strong>Platos del día:</strong> Pregunta a nuestro personal por las
-            especialidades.
-          </li>
-        </ul>
+
+        <div class="menu-grid">
+          <!-- Snacks -->
+          <div class="menu-item">
+            <i class="las la-pizza-slice"></i>
+            <h3>Tapas</h3>
+            <p>Pepperoni pizza, nachos con queso, alitas de pollo y más.</p>
+          </div>
+
+          <!-- Bebidas -->
+          <div class="menu-item">
+            <i class="las la-coffee"></i>
+            <h3>Bebidas</h3>
+            <p>Café, té, smoothies, jugos frescos y refrescos.</p>
+          </div>
+
+          <!-- Hamburguesas -->
+          <div class="menu-item">
+            <i class="las la-hamburger"></i>
+            <h3>Hamburguesas</h3>
+            <p>Hamburguesas de carne, pollo, vegetarianas y veganas.</p>
+          </div>
+
+          <!-- Hamburguesas -->
+          <div class="menu-item">
+            <i class="las la-bread-slice"></i>
+            <h3>Pan Natural</h3>
+            <p>Pan tradicional y crugiente como el de toda la vida</p>
+          </div>
+
+          <!-- Hamburguesas -->
+          <div class="menu-item">
+            <i class="las la-cheese"></i>
+            <h3>Quesos</h3>
+            <p>Quesos de proximidad y ecologicos</p>
+          </div>
+
+          <!-- Postres -->
+          <div class="menu-item">
+            <i class="las la-ice-cream"></i>
+            <h3>Postres</h3>
+            <p>Helado, brownies, pasteles y variedad de dulces.</p>
+          </div>
+
+          <!-- Ensaladas -->
+          <div class="menu-item">
+            <i class="las la-leaf"></i>
+            <h3>Ensaladas</h3>
+            <p>Ensaladas frescas con vegetales orgánicos y toppings.</p>
+          </div>
+
+          <!-- Combos -->
+          <div class="menu-item">
+            <i class="las la-utensils"></i>
+            <h3>Menu entre semana</h3>
+            <p>Combos de comida rápida con bebida y postre</p>
+          </div>
+
+           <!-- Combos -->
+           <div class="menu-item">
+            <i class="las la-utensils"></i>
+            <h3>Menu de festivos</h3>
+            <p>Menus especiales para el fin de semana.</p>
+          </div>
+        </div>
       </section>
 
       <section id="contacto">
