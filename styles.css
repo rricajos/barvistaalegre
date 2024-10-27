@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #BB4545;
   color: white;
   text-align: center;
   padding: 2rem 0;
@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #4CAF50;
+  color: #BB4545;
 }
 
 main {
@@ -73,7 +73,7 @@ section {
 }
 
 h2 {
-  color: #4CAF50;
+  color: #BB4545;
 }
 
 h3 {
